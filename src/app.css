@@ -18,7 +18,9 @@ img {
 }
 
 nav {
+  position: fixed;
   width: 100%;
+  height: 3rem;
   background: #108db8;
 }
 
@@ -30,4 +32,5 @@ nav a {
 
 .content {
   padding: 1rem;
+  padding-top: 3rem;
 }
