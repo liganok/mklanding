@@ -10,6 +10,8 @@ import Routes from 'react-static-routes'
 
 import './app.css'
 
+const APPBAR_HEIGHT = '4rem'
+
 export default () => (
   <Router>
     <div>
@@ -18,15 +20,14 @@ export default () => (
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
       </nav> */}
-      <AppBar elevation={0} position="fixed" >
+      <AppBar elevation={0} position="fixed" style={{ height: APPBAR_HEIGHT, display: 'flex', justifyContent: 'center' }}>
         <Toolbar>
           <Typography variant="title" color="inherit">
             Title
           </Typography>
-          <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-      <div>
+      <div style={{ paddingTop: APPBAR_HEIGHT }}>
         <Routes />
       </div>
     </div>
