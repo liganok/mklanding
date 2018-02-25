@@ -4,8 +4,8 @@ import Typography from 'material-ui/Typography'
 
 
 export default withSiteData(() => (
-  <div style={{ display: 'flex', flexDirection: 'row' }}>
-    <div style={{ flex: 1, backgroundColor: '#3f51b5', minHeight: '90vh', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+  <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div style={{ flex: 1, backgroundColor: '#3f51b5', minHeight: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
       <div>
         <Typography variant="display2" style={{ color: 'white' }} gutterBottom>
           Meetingku
@@ -14,6 +14,9 @@ export default withSiteData(() => (
           A tool for controlling your meeting time
         </Typography>
       </div>
+    </div>
+    <div style={{ height: 500 }}>
+      test
     </div>
   </div>
 ))
