@@ -23,7 +23,7 @@ export default () => (
       <AppBar elevation={0} position="fixed" style={{ height: APPBAR_HEIGHT, display: 'flex', justifyContent: 'center' }}>
         <Toolbar>
           <Typography variant="title" color="inherit">
-            Title
+            Meetingku
           </Typography>
         </Toolbar>
       </AppBar>

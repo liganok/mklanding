@@ -7,19 +7,22 @@ export default withSiteData(() => (
   <div style={{ display: 'flex', flexDirection: 'column' }}>
     <div style={{ flex: 1, backgroundColor: '#3f51b5', minHeight: '80vh', display: 'flex', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
       <div>
-        <Typography variant="display2" style={{ color: 'white' }} gutterBottom>
+        <Typography variant="display3" style={{ color: 'white' }} gutterBottom>
           Meetingku
         </Typography>
         <Typography variant="title" style={{ color: 'white' }} gutterBottom>
           A tool for controlling your meeting time
         </Typography>
-        <Button size="large" color="inherit" style={{ color: 'white', textTransform: 'none', fontSize: '2em' }}>
+        <Button href="https://www.meetingku.com" size="large" color="inherit" style={{ color: 'white', marginTop: '50px', textTransform: 'none', border: '1px solid white', fontSize: '1.5em' }}>
           Get start for FREE
         </Button>
       </div>
     </div>
-    <div style={{ height: 500 }}>
+    <div style={{ textAlign: 'center', height: 800 }}>
       test
+    </div>
+    <div style={{ textAlign: 'center', margin: '5px' }}>
+      © 2018 Meetingku
     </div>
   </div>
 ))
