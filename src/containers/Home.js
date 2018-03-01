@@ -18,10 +18,10 @@ export default withSiteData(() => (
         </Button>
       </div>
     </div>
-    <div style={{ textAlign: 'center', height: 800 }}>
+    {/* <div style={{ textAlign: 'center', height: 800 }}>
       test
-    </div>
-    <div style={{ textAlign: 'center', margin: '5px' }}>
+    </div> */}
+    <div style={{ textAlign: 'center', margin: '5px', paddingTop: '40px' }}>
       © 2018 Meetingku
     </div>
   </div>
