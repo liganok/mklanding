@@ -13,7 +13,7 @@ export default withSiteData(() => (
         <Typography variant="title" style={{ color: 'white' }} gutterBottom>
           A tool for controlling your meeting time
         </Typography>
-        <Button href="https://www.meetingku.com" size="large" color="inherit" style={{ color: 'white', marginTop: '50px', textTransform: 'none', border: '1px solid white', fontSize: '1.5em' }}>
+        <Button href="https://app.meetingku.com" size="large" color="inherit" style={{ color: 'white', marginTop: '50px', textTransform: 'none', border: '1px solid white', fontSize: '1.5em' }}>
           Get start for FREE
         </Button>
       </div>
