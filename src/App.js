@@ -22,13 +22,13 @@ class App extends Component {
             Meetingku
           </Typography>
         </header>
-        
+
         <body>
           <div className="App-content">
             <Typography variant="display3" style={{ color: 'white', paddingTop: "5rem" }} gutterBottom>
               Meetingku
             </Typography>
-            <Typography variant="title" style={{ color: 'white',padding:'20px',textAlign:'center' }} gutterBottom>
+            <Typography variant="title" style={{ color: 'white', padding: '20px', textAlign: 'center' }} gutterBottom>
               A tool for controlling your meeting time
             </Typography>
             <Button href="https://app.meetingku.com" size="large" color="inherit" style={{ color: 'white', marginTop: '50px', textTransform: 'none', border: '1px solid white', fontSize: '1.5em' }}>
@@ -51,7 +51,7 @@ class App extends Component {
               <Typography variant="subheading" style={{ color: "#0000008a" }}>
                 Schedule a meeting with the start time, location, meeting items and save it.
               </Typography>
-              <img className="App-pic-1" src={img1} width="100%" alt="schedule"/>
+              <img className="App-pic-1" src={img1} width="100%" alt="schedule" />
             </Grid>
             <Grid item xs={12} md={4} className="App-step-1">
               <div className="App-step-1-1">
@@ -63,7 +63,7 @@ class App extends Component {
               <Typography variant="subheading" style={{ color: "#0000008a" }}>
                 The meeting will start on your schedule time, you also can start it locally before the schedule time.
               </Typography>
-              <img className="App-pic-1" src={img2} alt="start"/>
+              <img className="App-pic-1" src={img2} alt="start" />
             </Grid>
             <Grid item xs={12} md={4} className="App-step-1">
               <div className="App-step-1-1">
@@ -75,12 +75,14 @@ class App extends Component {
               <Typography variant="subheading" style={{ color: "#0000008a" }}>
                 When the meeting start, you can check the meeting progress and monitor it like a sand clock.
               </Typography>
-              <img className="App-pic-1" src={img3} alt="monitor"/>
+              <img className="App-pic-1" src={img3} alt="monitor" />
             </Grid>
           </Grid>
         </body>
-        <footer style={{ textAlign: 'center', margin: '5px', paddingTop: '40px' }}>
-          © 2018 Meetingku
+        <footer style={{ textAlign: 'center', backgroundColor:'#0f1e26' }}>
+          <Typography style={{ color: "white",padding:'5px' }}>
+            © 2018 Meetingku
+          </Typography>
         </footer>
       </div>
     );
