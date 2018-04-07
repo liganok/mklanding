@@ -49,9 +49,9 @@ class App extends Component {
               </div>
               <Typography variant="headline" style={{ padding: 10, color: "#0000008a" }}>SCHEDULE</Typography>
               <Typography variant="subheading" style={{ color: "#0000008a" }}>
-                Schedule the meeting with the start time, location, meeting items and save it.
+                Schedule a meeting with the start time, location, meeting items and save it.
               </Typography>
-              <img className="App-pic-1" src={img1} width="100%"/>
+              <img className="App-pic-1" src={img1} width="100%" alt="schedule"/>
             </Grid>
             <Grid item xs={12} md={4} className="App-step-1">
               <div className="App-step-1-1">
@@ -61,9 +61,9 @@ class App extends Component {
               </div>
               <Typography variant="headline" style={{ padding: 10, color: "#0000008a" }}>START</Typography>
               <Typography variant="subheading" style={{ color: "#0000008a" }}>
-                The meeting will start on your start time, you also can start it locally before the start time.
+                The meeting will start on your schedule time, you also can start it locally before the schedule time.
               </Typography>
-              <img className="App-pic-1" src={img2} />
+              <img className="App-pic-1" src={img2} alt="start"/>
             </Grid>
             <Grid item xs={12} md={4} className="App-step-1">
               <div className="App-step-1-1">
@@ -73,9 +73,9 @@ class App extends Component {
               </div>
               <Typography variant="headline" style={{ padding: 10, color: "#0000008a" }}>MONITOR</Typography>
               <Typography variant="subheading" style={{ color: "#0000008a" }}>
-                When the meeting start, you can check the meeting progress and monitor it.
+                When the meeting start, you can check the meeting progress and monitor it like a sand clock.
               </Typography>
-              <img className="App-pic-1" src={img3} />
+              <img className="App-pic-1" src={img3} alt="monitor"/>
             </Grid>
           </Grid>
         </body>
