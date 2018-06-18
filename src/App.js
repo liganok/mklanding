@@ -15,13 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          {/*           <img src={logo} className="App-logo" alt="logo" />
- */}
-          <Typography className="App-title" variant="title" color="inherit">
-            Meetingku
-          </Typography>
-        </header>
+
 
         <body>
           <div className="App-content">
@@ -79,8 +73,8 @@ class App extends Component {
             </Grid>
           </Grid>
         </body>
-        <footer style={{ textAlign: 'center', backgroundColor:'#0f1e26' }}>
-          <Typography style={{ color: "white",padding:'5px' }}>
+        <footer style={{ textAlign: 'center',marginTop:'20px', backgroundColor:'#0f1e26' }}>
+          <Typography variant="caption" style={{ color: "white",padding:'10px' }}>
             © 2018 Meetingku
           </Typography>
         </footer>
